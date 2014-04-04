@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
 		ang_db = new DataB(getBaseContext());
 		
 		TextView text = (TextView)findViewById(R.id.text1);
-		text.setText(ang_db.getAngajati().toString()); 
+		text.setText(ang_db.getAngajat(11).toString()); 
 	}
 
 	
